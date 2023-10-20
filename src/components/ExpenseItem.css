@@ -1,0 +1,31 @@
+.expenseItem {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1E2022;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+
+
+.title {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.price {
+    background-color: #52616B;
+    padding: 5px 15px;
+    border-radius: 10px;
+    border: 1px solid white;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
