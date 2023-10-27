@@ -1,0 +1,19 @@
+.expenses{
+    width: 50%;
+    background-color: #1E2022;
+}
+.no-expense-msg{
+    color:white;
+    font-size: 1rem;
+    padding: 20px;
+}
+@media  (max-width:900px) {
+    .expenses{
+        width:70%;
+    }
+}
+@media  (max-width:700px) {
+    .expenses{
+        width:90%;
+    }
+}

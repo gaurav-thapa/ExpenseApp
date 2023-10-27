@@ -1,0 +1,19 @@
+.new-expense{
+    width:50%;
+    background-color: #006e4f;
+    margin:20px;
+}
+.addExpenseRow{
+    text-align: center;
+    padding:20px;
+}
+@media  (max-width:900px) {
+    .new-expense{
+        width:70%;
+    }
+}
+@media  (max-width:700px) {
+    .new-expense{
+        width:90%;
+    }
+}

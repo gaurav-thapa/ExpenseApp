@@ -1,0 +1,57 @@
+form {
+    padding: 10px 50px;
+    color: white;
+}
+
+.expense-controls {
+    display: flex;
+    gap: 1rem;
+}
+
+.expense-control {
+    display: flex;
+    flex-direction: column;
+}
+
+.expense-actions {
+    display: flex;
+    gap:1rem;
+    justify-content: flex-end;
+}
+
+label {
+    margin: 10px 0 5px 0;
+}
+
+input {
+    padding: 10px;
+    border-radius:6px;
+    border:none;
+}
+input:focus{
+    outline:none;
+}
+
+button {
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #1E2022;
+    color: white;
+    border: none;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #141517;
+}
+
+@media (max-width:550px) {
+    .expense-controls {
+        display: flex;
+        flex-direction: column;
+    }
+    .expense-actions {
+        padding:20px 0 10px 0;
+        justify-content: center;
+    }
+}

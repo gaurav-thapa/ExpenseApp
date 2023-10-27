@@ -1,0 +1,11 @@
+.filter {
+    padding: 20px 50px;
+    color: white;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.filter select {
+    padding: 10px;
+}

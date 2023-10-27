@@ -2,17 +2,16 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #1E2022;
+    background-color: #52616B;
     color: white;
     padding: 10px 20px;
-    border-radius: 10px;
-    margin-bottom: 10px;
+    margin: 20px;
 }
 
 .left {
     display: flex;
     align-items: center;
-    gap: 3rem;
+    gap: 2rem;
 }
 
 
@@ -22,10 +21,22 @@
 }
 
 .price {
-    background-color: #52616B;
+    background-color: #005B41;
     padding: 5px 15px;
     border-radius: 10px;
     border: 1px solid white;
     font-size: 1.5rem;
     font-weight: bold;
+}
+
+@media (max-width:550px) {
+   .left{
+    gap:.5rem;
+   }
+    .title{
+        font-size:1rem;
+    }
+    .price{
+        font-size:1rem;
+    }
 }

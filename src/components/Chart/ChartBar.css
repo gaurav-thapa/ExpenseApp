@@ -1,0 +1,18 @@
+
+.month {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.indicator {
+    height: 4rem;
+    width: .5rem;
+    border-radius: 10px;
+}
+
+.name {
+    font-size: .7rem;
+    margin-top: 10px;
+}
