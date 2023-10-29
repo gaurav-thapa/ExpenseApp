@@ -18,10 +18,15 @@ const Chart = (props) => {
         { label: "Dec", amount: 0 },
     ];
     const amounts = [];
-    dataPoints.map((data) => {
+
+    dataPoints.forEach(data => {
         amounts.push(data.amount);
         MONTHS[data.month].amount = data.amount;
     });
+    // dataPoints.map((data) => {
+    //     amounts.push(data.amount);
+    //     MONTHS[data.month].amount = data.amount;
+    // });
 
     const maxAmount = Math.max(...amounts);
     return (
